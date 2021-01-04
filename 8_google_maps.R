@@ -2,7 +2,7 @@ library('ggmap')
 library('ggplot2')
 library('dplyr')
 
-register_google(key='AIzaSyAmNw1ekQCT6L44k-2wv8rSOtiXsFqjIYI')
+register_google(key='google_maps_api_keys')
 
 # 지도형태별 불러오기
 ggseoul <- get_googlemap("seoul", maptype = "terrain")
